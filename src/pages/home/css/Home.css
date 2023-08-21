@@ -1,0 +1,39 @@
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+   height: 632px;
+   overflow: hidden;
+   background: #0e0e0e;
+}
+.home .info{
+   max-width: 398px;
+   color: var(--white);
+   z-index: 2;
+}
+.newProduct {
+   font-size: 1.4rem;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+   opacity: 0.4964;
+   margin-bottom: 1.6rem;
+}
+.home .info  h1{
+   margin-top: 2.4rem;
+}
+.home .info p{
+   max-width: 349px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-top: 2.4rem;
+   opacity: 0.75;
+}
+.home img{
+   position: absolute;
+   right: -3rem;
+   bottom: 3rem;
+}
+.home img svg {
+fill: #0e0e0e;
+}

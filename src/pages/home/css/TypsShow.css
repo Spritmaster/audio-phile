@@ -1,0 +1,62 @@
+.typs{
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 16.8rem;
+}
+.typs .box{
+    width: 35rem;
+    height: 20.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--grey);
+    border-radius: 8px;
+    position: relative;
+}
+.typs .box p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--000-clr);
+}
+.typs .box span{
+width: 122px;
+height: 18px;
+flex-shrink: 0;
+background: var(--000-clr);
+filter: blur(21.746253967285156px);
+margin-top: 6.5rem;
+margin-bottom: 5rem;
+}
+
+.typs .go__shop{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.typs .go__shop p{
+    font-size: 1.3rem;
+    opacity: 0.5;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.typs__box-img{
+    width: 122px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+@media  (max-width:768px){
+    .typs__box-img{
+        width: 60%;
+    }
+    .typs .box p{
+        font-size: 15px;
+    }
+}

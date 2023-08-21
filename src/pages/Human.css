@@ -1,0 +1,17 @@
+.human-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+
+.human-text-w {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.human-text-w p{
+    opacity: 0.5;
+}

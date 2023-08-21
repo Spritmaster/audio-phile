@@ -1,0 +1,94 @@
+.ProductsMain-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.zxSpeaker-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--primary-clr);
+    padding: 13.3rem 9.5rem 12.4rem 0 ;
+    overflow: hidden;
+    position: relative;
+}
+.zx-box__info{
+    max-width: 349px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+.zx-box__info h1{
+    color: var(--white);
+}
+.zx-box__info p{
+    max-width: 349px;
+    margin-top: 2.4rem;
+    opacity: 0.75;
+    color: var(--white);
+}
+.zxSpeaker-box img{
+position: absolute;
+left: 11.7rem;
+bottom: 0;
+width: 390px;
+z-index: 10;
+}
+.zx-box__info .second-btn{
+    max-width: 168px;
+}
+
+.circ1{
+    position: absolute;
+    top: -3.6rem;
+    right: 31.5rem;
+    width: 99.4rem;
+    height: 99.4rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    opacity: 0.3;
+}
+.circ2{
+    position: absolute;
+    top: 16.5rem;
+    left: 5.2rem;
+    width: 54.2rem;
+    height: 54.2rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    opacity: 0.3;
+}
+.circ3{
+    position: absolute;
+    top: 20rem;
+    left: 8.7rem;
+    width: 47.2rem;
+    height: 47.2rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    opacity: 0.3;
+}
+
+.zx7Speaker-box{
+    padding: 12rem;
+    background: url(./images/png/zx7Speaker.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 8px;
+}
+
+.yxEarPhones-box{
+    display: flex;
+    justify-content: space-between;
+}
+.yxEarPhones-box img{
+    border-radius: 8px;
+}
+.yx__info{
+    max-width: 540px;
+    padding: 10.1rem 15rem 10.1rem  9.5rem;
+    background: var(--grey);
+    border-radius: 8px;
+}

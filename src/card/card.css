@@ -1,0 +1,35 @@
+.products_number{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--grey);
+    padding: 1.5rem;
+}
+.minus .plus{
+    display: inline-block;
+}
+.productCount{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 4.7rem;
+}
+.productCount .primary-btn{
+    margin-top: 0;
+}
+@media screen and (max-width:768px){
+    .productCount{
+        flex-direction: column;
+        align-items: flex-start ;
+    }
+    
+}
+@media screen and (max-width:576px){
+    .productCount{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start ;
+    }
+    
+}

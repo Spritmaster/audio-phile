@@ -1,0 +1,11 @@
+.the-theme-info{
+    max-width: 445px;
+}
+.the-theme-info .newProduct{
+color: var(--primary-clr);
+opacity: 1;
+margin-bottom: 1.6rem;
+}
+.the-theme-info h2{
+    margin-bottom: 3.2rem;
+}
